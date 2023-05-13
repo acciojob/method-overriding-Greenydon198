@@ -7,7 +7,7 @@ public class Main {
         }
     }
     public static class B extends A {
-        B(){
+        public B(){
             System.out.println(new A().meth());
         }
 
