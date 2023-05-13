@@ -8,7 +8,7 @@ public class Main {
     }
     public static class B extends A {
         B(){
-            new A().meth();
+            System.out.println(new A().meth());
         }
 
         @Override
@@ -19,7 +19,7 @@ public class Main {
 
     public static void main(String[] args) {
         B B = new B();
-        B.meth();
+        System.out.println(B.meth());
     }
 
 }
